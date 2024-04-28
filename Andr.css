@@ -1,0 +1,27 @@
+#laki-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#laki {
+    background-image: url('laklak1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 300px; /* Ширина изображения */
+    height: 300px; /* Высота изображения */
+    float: left; /* Выравнивание изображения по левому краю */
+}
+
+#text-container {
+    float: left; /* Выравнивание текста по левому краю */
+    max-width: calc(100% - 300px); /* Максимальная ширина текста (ширина контейнера минус ширина изображения) */
+    padding-left: 20px; /* Отступ слева для текста */
+}
+
+/* Пример стилей для текста */
+.text {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5;
+}
